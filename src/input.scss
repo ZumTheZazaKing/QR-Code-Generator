@@ -16,6 +16,7 @@ body{
         margin-right: auto;
         margin-left: auto;
         border-radius: 5px;
+        margin-bottom: 50px;
         
         #Input{
             display: flex;
@@ -48,6 +49,11 @@ body{
         }
         #Output{
             text-align: center;
+            #main{
+                button{
+                    font-weight: 600;
+                }
+            }
         }
     }
 }
