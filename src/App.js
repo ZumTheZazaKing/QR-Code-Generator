@@ -2,6 +2,7 @@ import { Context } from './Contexts/Context';
 
 import { lazy, Suspense, useState } from 'react';
 
+
 const Input = lazy(() => import('./Input').then(module => ({default:module.Input})));
 const Output = lazy(() => import('./Output').then(module => ({default:module.Output})));
 

@@ -32,9 +32,11 @@ body{
                 background: white;
             }
             #colorSelect{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
                 input[type=color]{
-                    margin-left: 10px;
-                    margin-right: 10px;
                     cursor: pointer;
                     background-color: white;
                     border: none;
@@ -52,6 +54,10 @@ body{
             #main{
                 button{
                     font-weight: 600;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
                 }
             }
         }

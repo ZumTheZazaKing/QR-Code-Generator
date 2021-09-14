@@ -30,12 +30,12 @@ export function Input(){
         />
         <br/>
 
-        <p>(Make sure Color is darker than Bg Color)</p>
+        <p>(Make sure Color is darker than Background Color)</p>
         <div id="colorSelect">
             <label>Color:</label>
             <input type="color" value={color} onChange={e => setColor(e.target.value)}/>
-
-            <label>Bg Color:</label>
+            <br/>
+            <label>Background Color:</label>
             <input type="color" value={bgcolor} onChange={e => setBgcolor(e.target.value)}/>
         </div>
         <br/>

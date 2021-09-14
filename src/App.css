@@ -32,9 +32,13 @@ body .App #Input p {
 body .App #Input input[type=text] {
   background: white;
 }
+body .App #Input #colorSelect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 body .App #Input #colorSelect input[type=color] {
-  margin-left: 10px;
-  margin-right: 10px;
   cursor: pointer;
   background-color: white;
   border: none;
@@ -50,6 +54,10 @@ body .App #Output {
 }
 body .App #Output #main button {
   font-weight: 600;
+}
+body .App #Output #main a {
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=App.css.map */

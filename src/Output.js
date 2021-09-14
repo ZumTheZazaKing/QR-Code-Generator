@@ -12,7 +12,7 @@ export function Output(){
         <div id="main">
             <img src={qrImage} alt="" title="" />
             <br/>
-            <Button>DOWNLOAD SVG</Button>
+            <Button><a href={qrImage} target="_blank" rel="noreferrer" download>DOWNLOAD</a></Button>
         </div>
         :
         <h2>Start by entering a link or text!</h2>}
