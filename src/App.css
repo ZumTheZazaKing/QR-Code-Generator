@@ -1,7 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
 body {
   background: burlywood;
   margin: 0;
   padding: 0;
+}
+body .App {
+  margin-top: 50px;
+  background-color: whitesmoke;
+  padding: 20px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+}
+body .App #Input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .App #Input p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+body .App #Input input[type=text] {
+  background: white;
+}
+body .App #Input #colorSelect input[type=color] {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  background: transparent;
+}
+body .App #Input #generateButton {
+  background: deeppink;
+  font-weight: 700;
+  color: white;
+}
+body .App #Output {
+  text-align: center;
 }
 
 /*# sourceMappingURL=App.css.map */
